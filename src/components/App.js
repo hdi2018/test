@@ -21,8 +21,8 @@ export default function App() {
 
     return (
       <p>
-        Getting data from Mysecond right now to check whether something from
-        space is going to hit us. One moment…
+        Getting data from Mysecond again right now to check whether something
+        from space is going to hit us. One moment…
       </p>
     );
   }
