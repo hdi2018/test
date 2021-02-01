@@ -33372,7 +33372,7 @@ function App() {
 
   if (data.loading) {
     document.title = 'Counting potential earth HAZARDS…';
-    return /*#__PURE__*/_react.default.createElement("p", null, "Getting data from NASA right now to check whether something from space is going to hit us. One moment\u2026");
+    return /*#__PURE__*/_react.default.createElement("p", null, "Getting data from MASA right now to check whether something from space is going to hit us. One moment\u2026");
   }
 
   var day = getDate((0, _addDays.default)(new Date(), 1));
@@ -33439,7 +33439,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37687" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36863" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
