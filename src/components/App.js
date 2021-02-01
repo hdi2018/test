@@ -21,7 +21,7 @@ export default function App() {
 
     return (
       <p>
-        Getting data from Mysecond again right now to check whether something
+        Getting data from My6branch right now to check whether something
         from space is going to hit us. One moment…
       </p>
     );
