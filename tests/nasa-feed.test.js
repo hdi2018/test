@@ -32,7 +32,7 @@ function test() {
       const first = dayData[0];
       if (typeof first.is_potentially_hazardous_asteroid === 'undefined') {
         throw new Error(
-          'Missing key "is_potentially_hazardous_asteroid" from first data point, presuming remaining data is wrong.'
+          'Missing ke "is_potentially_hazardous_asteroid" from first data point, presuming remaining data is wrong.'
         );
       }
     });
